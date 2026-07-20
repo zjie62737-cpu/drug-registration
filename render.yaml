@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: drug-registration
+    env: node
+    region: singapore
+    plan: free
+    buildCommand: |
+      npm run install:all
+      npm run build
+      cd server && npx prisma generate && npx prisma migrate deploy
+    startCommand: cd server && NODE_ENV=production npx tsx src/index.ts
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: PORT
+        value: "10000"

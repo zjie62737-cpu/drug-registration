@@ -1,0 +1,293 @@
+================================================================================
+        国家药品监督管理局药品审评中心
+        CENTER FOR DRUG EVALUATION, NMPA
+        药品注册申请表
+        PHARMACEUTICAL REGISTRATION APPLICATION FORM
+================================================================================
+
+受理号 (Acceptance No.): _______________
+流水号 (Serial No.): _______________
+申请日期 (Application Date): 2024-10-15
+
+================================================================================
+                        第一部分：药品基本信息
+                    PART I: BASIC PRODUCT INFORMATION
+================================================================================
+
+1.  药品注册分类 (Drug Registration Classification):
+    [X] 化学药品 (Chemical Drug)
+        [X] 1类 — 创新药 (Class 1 - Innovative Drug)
+        [ ] 2类 — 改良型新药 (Class 2 - Improved New Drug)
+        [ ] 3类 — 仿制药 (Class 3 - Generic Drug)
+        [ ] 4类 — 化学仿制药 (Class 4 - Chemical Generic Drug)
+        [ ] 5类 — 进口药品 (Class 5 - Imported Drug)
+
+2.  申请事项 (Application Type):
+    [X] 新药上市许可申请 (New Drug Marketing Authorization Application, NDA)
+    [ ] 生物制品许可申请 (Biologics License Application, BLA)
+    [ ] 仿制药质量和疗效一致性评价 (Generic Drug Consistency Evaluation)
+    [ ] 补充申请 (Supplemental Application)
+    [ ] 再注册 (Re-registration)
+
+3.  药品通用名称 (Generic Name):
+    中文 (Chinese): 恩索瓦非布片
+    英文 (English): Ensovafexib Tablets
+    汉语拼音 (Pinyin): En Suo Wa Fei Bu Pian
+
+4.  商品名称 (Brand/Trade Name):
+    中文: 安索维
+    英文: Ansowei
+
+5.  药品批准文号 (Previous Drug Approval No.): 无 (新药申请)
+
+6.  原料药批准文号 (API Approval No.): 待批准 (Pending)
+
+7.  剂型 (Dosage Form): 片剂 (Tablet)
+
+8.  规格 (Strength): 100 mg (以 ensovafexib 计)
+
+9.  包装规格 (Package Size):
+    [X] 30片/瓶 (30 tablets/bottle, HDPE瓶装)
+    [X] 90片/瓶 (90 tablets/bottle, HDPE瓶装)
+    [X] 10片/板 × 3板/盒 (10 tablets/blister × 3 blisters/box, 铝塑包装)
+
+10. 适应症 (Therapeutic Indication):
+    本品单药适用于至少接受过两种系统治疗后复发或难治性滤泡性淋巴瘤
+    (Follicular Lymphoma, FL) 成人患者的治疗。
+    基于总体缓解率 (ORR) 和缓解持续时间 (DOR) 的加速批准途径下获批。
+    该适应症的完全批准可能取决于确证性研究中临床获益的验证和描述。
+
+11. 用法用量 (Dosage and Administration):
+    推荐剂量为100mg，每日一次，随餐或空腹口服给药。
+    持续用药直至疾病进展或出现不可接受的毒性。
+    参见完整处方信息了解剂量调整和不良反应管理方案。
+
+12. 处方/非处方 (Prescription/OTC):
+    [X] 处方药 (Prescription Drug)
+    [ ] 非处方药 (OTC Drug)
+
+13. 药理分类 (Pharmacological Category):
+    选择性PI3Kδ抑制剂 (Selective PI3Kδ Inhibitor)
+    ATC Code (拟): L01EM01
+
+14. 化学结构信息 (Chemical Information):
+    USAN: ensovafexib
+    化学名: (S)-2-(1-(9H-purin-6-ylamino)ethyl)-5-fluoro-3-phenylquinazolin-4(3H)-one
+    分子式: C21H16FN7O
+    分子量: 401.40 g/mol
+    CAS号: [虚构] 2378491-23-7
+    化学结构式:
+
+                       F
+                       |
+                   ----C----
+                  /    |    \
+               C=C    C=O   C6H5
+              /   \   |
+            N       N-CH(CH3)-NH-C5H3N4
+              \   /
+               C=N
+               |
+              (S)-enantiomer
+
+================================================================================
+                        第二部分：申请人与生产企业信息
+                    PART II: APPLICANT AND MANUFACTURER
+================================================================================
+
+15. 申请人信息 (Applicant Information):
+
+    15.1 申请人名称 (Applicant Name):
+        诺华医药科技有限公司
+        NovaPharm Pharmaceutical Technology Co., Ltd.
+
+    15.2 注册地址 (Registered Address):
+        上海市浦东新区张江高科技园区456号
+        邮编: 201203
+
+    15.3 法定代表人 (Legal Representative): 王建国
+
+    15.4 统一社会信用代码 (Unified Social Credit Code):
+        91310000MA1FL6W98X
+
+    15.5 企业类型 (Enterprise Type):
+        [X] 有限责任公司 (Limited Liability Company)
+        [ ] 股份有限公司 (Joint Stock Company)
+        [ ] 外商投资企业 (Foreign-Invested Enterprise)
+
+    15.6 联系人信息:
+        姓名: 陈丽华
+        职位: 注册事务总监
+        电话: 021-5555-0123
+        手机: +86-138-1234-5678
+        邮箱: chenlihua@novapharm-cn.com
+        传真: 021-5555-0124
+
+16. 生产企业信息 (Manufacturer Information):
+
+    16.1 药品生产企业 (Drug Product Manufacturer):
+        名称: 诺华医药科技有限公司苏州工厂
+        地址: 江苏省苏州市工业园区星海街789号
+        邮编: 215021
+        生产许可证编号: 苏20230012
+        生产范围: 片剂、胶囊剂、颗粒剂
+
+    16.2 原料药生产企业 (API Manufacturer):
+        名称: (a) 诺华医药科技有限公司苏州工厂 (自有)
+            地址: 江苏省苏州市工业园区星海街789号
+            (b) Patheon Pharmaceuticals (合同生产商/CMO)
+            地址: 123 API Drive, Florence, SC 29501, USA
+
+    16.3 GMP符合性信息:
+        证书编号: CN20230045
+        认证范围: 片剂（口服固体制剂）
+        签发日期: 2023-03-15
+        有效期至: 2028-03-14
+        签发机构: 江苏省药品监督管理局
+        上次GMP检查日期: 2023-02-20
+
+================================================================================
+                        第三部分：知识产权及相关声明
+                    PART III: INTELLECTUAL PROPERTY
+================================================================================
+
+17. 专利信息 (Patent Information):
+
+    17.1 化合物专利:
+        专利号: ZL201580012345.6
+        发明名称: 作为PI3Kδ抑制剂的取代喹唑啉酮化合物
+        申请日: 2015-06-15
+        授权公告日: 2018-03-20
+        专利权人: NovaPharm Therapeutics Inc.
+        法律状态: 有效 (专利权维持)
+        到期日: 2035-06-14
+
+    17.2 晶型专利:
+        专利号: ZL201780023456.7
+        发明名称: 恩索瓦非布的结晶形式及其制备方法
+        申请日: 2017-09-28
+        授权公告日: 2020-01-10
+        专利权人: NovaPharm Therapeutics Inc.
+        法律状态: 有效
+        到期日: 2037-09-27
+
+    17.3 用途专利:
+        专利号: ZL201880034567.8
+        发明名称: PI3Kδ抑制剂在制备治疗B细胞淋巴瘤药物中的用途
+        申请日: 2018-12-05
+        授权公告日: 2021-08-25
+        专利权人: NovaPharm Therapeutics Inc.
+        法律状态: 有效
+        到期日: 2038-12-04
+
+18. 数据保护声明 (Data Exclusivity Statement):
+    本品含新化学实体，在欧洲、美国和中国的所有非临床和临床数据由申请人自行开
+    发并独家拥有。根据《药品管理法实施条例》和《药品注册管理办法》，自本药品
+    在中国获得上市许可之日起6年内，药品监督管理部门不予批准其他申请人提出的
+    含有相同活性成分的仿制药上市许可申请(数据保护期)。
+
+19. 未披露试验数据保护申请:
+    [X] 是，申请对自行取得且未披露的试验数据给予保护
+    [ ] 否
+
+================================================================================
+                        第四部分：研究综述
+                    PART IV: RESEARCH SUMMARY
+================================================================================
+
+20. 非临床研究总结:
+
+    20.1 药理学:
+        体外研究显示ensovafexib对PI3Kδ激酶具有高效选择性抑制活性
+        (IC50 = 2.3 nM)，对PI3Kδ的选择性分别是PI3Kα、β和γ的
+        1,200倍、850倍和620倍。在DOUH-2和SU-DHL-6等B细胞淋巴瘤
+        细胞系中，ensovafexib呈浓度依赖性抑制pAKT S473磷酸化
+        (IC50 = 6.8-18.5 nM)和细胞增殖(GI50 = 12.3-45.7 nM)。
+
+    20.2 药代动力学:
+        恩索瓦非布在大鼠、犬和猴中口服生物利用度分别为42%、58%和35%。
+        血浆蛋白结合率约94.5%。主要经CYP3A4代谢(>70%)，次要经CYP2C8
+        代谢。消除半衰期(种属差异): 大鼠2.8小时、犬5.3小时、猴4.1小时。
+
+    20.3 毒理学:
+        重复给药毒性研究(大鼠28天、犬39周)显示主要毒性靶器官为造血/
+        淋巴系统、胃肠道和肝脏。NOAEL: 大鼠15 mg/kg/day (约为临床剂量
+        的4.5倍，以AUC计)，犬5 mg/kg/day (约为临床剂量的2.8倍)。
+        遗传毒性试验均为阴性。生殖毒性显示胚胎-胎仔发育毒性NOAEL为
+        30 mg/kg/day。未进行致癌性研究(拟作为上市后要求完成)。
+
+21. 临床研究总结:
+
+    21.1 Phase 1 (首次人体研究):
+        研究编号: ENSO-HV-101
+        设计: 开放、剂量递增
+        受试者: 48名健康志愿者 (SAD) + 36名 (MAD) + 12名 (FE)
+        剂量范围: 25-400 mg (SAD); 50-200 mg QD (MAD, 28天)
+        主要发现: 安全性和耐受性良好，MTD确定为200mg QD。食物效应:
+        高脂餐使AUC增加约18%, Cmax降低约15%, 临床认为无显著意义。
+
+    21.2 Phase 2 (剂量探索研究):
+        研究编号: ENSO-FL-201
+        设计: 随机、开放、多中心、3臂
+        受试者: 156例 R/R FL 患者 (≥2线前序治疗)
+        方案: Ensovafexib 50mg QD (n=52)/100mg QD (n=52)/
+              150mg QD (n=52)
+        主要终点: ORR (Lugano 2014标准, IRC评估)
+        结果: ORR 分别为 54% (50mg), 71% (100mg), 73% (150mg)
+              RP2D确定为100mg QD
+
+    21.3 Phase 3 (关键性确认研究):
+        研究编号: ENSO-FL-301
+        设计: 随机、开放、多中心、活性对照、2:1
+        受试者: 312例 R/R FL 患者 (≥2线前序治疗)
+        方案: Ensovafexib 100mg QD (n=208) vs 研究者选择化疗(n=104)
+        主要终点: PFS (IRC评估, Lugano 2014)
+        结果: 中位 PFS: Ensovafexib 18.4个月 vs 化疗 8.3个月
+              HR = 0.48 (95% CI: 0.35-0.66), p < 0.0001
+              ORR: 69.2% vs 38.5% (p < 0.0001)
+              更多详细结果参见临床研究总结
+
+================================================================================
+                        第五部分：声明与签署
+                    PART V: DECLARATIONS AND SIGNATURES
+================================================================================
+
+22. 申请人声明:
+
+    本人/本机构声明：
+    (1) 本申请表及所附资料真实、完整、准确；
+    (2) 本申请所含药物研究符合《药物非临床研究质量管理规范》(GLP)和
+        《药物临床试验质量管理规范》(GCP)的相关要求；
+    (3) 本申请不侵犯第三方合法权益；
+    (4) 申请人对申报资料的真实性承担全部法律责任。
+
+23. 申请日期: 2024年10月15日
+
+24. 申请单位 (盖章):
+    [诺华医药科技有限公司公章]
+
+25. 法定代表人 (签字):     王建国
+    Legal Representative Signature
+
+26. 注册专员 (签字):       陈丽华
+    Regulatory Agent Signature
+
+================================================================================
+                    (以下由药品审评中心填写)
+                (FOR CDE OFFICIAL USE ONLY BELOW)
+================================================================================
+
+受理意见 (Acceptance Opinion):
+
+    [ ] 受理 (Accept)
+    [ ] 不予受理 (Reject)
+    [ ] 需补充资料 (Request for Supplementary Information)
+
+受理号 (Acceptance No.): ___________________
+受理日期 (Acceptance Date): ___________________
+经办人 (Case Officer): ___________________
+审核人 (Reviewer): ___________________
+
+================================================================================
+                           END OF FORM
+================================================================================
