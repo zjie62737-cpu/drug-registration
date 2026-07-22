@@ -44,7 +44,7 @@ export const documentService = {
     return res.data;
   },
 
-  async getDownloadUrl(id: number): Promise<string> {
+  getDownloadUrl(id: number): string {
     return `/api/documents/${id}/download`;
   },
 

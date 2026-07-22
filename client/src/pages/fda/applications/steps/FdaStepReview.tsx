@@ -275,12 +275,12 @@ export default function FdaStepReview({ formData, onSubmit, submitting }: FdaSte
       <Card size="small" style={{ marginBottom: 16, borderRadius: 2 }}>
         <Table
           dataSource={[
-            { check: 'DUNS Format', result: isValidDUNS(formData.dunsNumber) ? 'Valid' : 'Invalid', valid: isValidDUNS(formData.dunsNumber) },
-            { check: 'FEI Format', result: isValidFEI(formData.feiNumber) ? 'Valid' : 'Invalid', valid: isValidFEI(formData.feiNumber) },
-            { check: 'ESG Account Status', result: formData.esgAccount ? 'Registered' : 'Not Provided', valid: !!formData.esgAccount },
-            { check: 'eCTD Backbone File', result: 'Required', valid: true },
-            { check: 'US Agent Designation', result: formData.usAgentName ? 'Designated' : 'Not Designated', valid: !!formData.usAgentName },
-            { check: 'Form Version Check', result: formData.applicationFormType ? 'Current version selected' : 'Not selected', valid: !!formData.applicationFormType },
+            { check: 'DUNS Format' as const, result: isValidDUNS(formData.dunsNumber) ? 'Valid' as const : 'Invalid' as const, valid: isValidDUNS(formData.dunsNumber) },
+            { check: 'FEI Format' as const, result: isValidFEI(formData.feiNumber) ? 'Valid' as const : 'Invalid' as const, valid: isValidFEI(formData.feiNumber) },
+            { check: 'ESG Account Status' as const, result: formData.esgAccount ? 'Registered' as const : 'Not Provided' as const, valid: !!formData.esgAccount },
+            { check: 'eCTD Backbone File' as const, result: 'Required' as const, valid: true },
+            { check: 'US Agent Designation' as const, result: formData.usAgentName ? 'Designated' as const : 'Not Designated' as const, valid: !!formData.usAgentName },
+            { check: 'Form Version Check' as const, result: formData.applicationFormType ? 'Current version selected' as const : 'Not selected' as const, valid: !!formData.applicationFormType },
           ]}
           columns={[
             { title: 'System Check', dataIndex: 'check', key: 'check', width: 200, render: (v: string) => <Text strong>{v}</Text> },

@@ -265,19 +265,19 @@ export default function StepReview({ formData, onSubmit, submitting }: StepRevie
       >
         <Table
           dataSource={[
-            { key: '注册申请类型', value: renderValue(formData.registrationType, APPLICATION_TYPES) },
-            { key: '申请事项', value: renderValue(formData.applicationCategory, NMPA_APPLICATION_CATEGORIES) },
-            { key: '注册分类', value: renderValue(formData.registrationClass, NMPA_REGISTRATION_CLASSES) },
-            { key: '药品通用名称', value: formData.drugNameGeneric || '-' },
-            { key: '商品名', value: formData.drugNameTrade || '-' },
-            { key: '药品分类', value: formData.drugType || '-' },
-            { key: '剂型', value: formData.dosageForm || '-' },
-            { key: '规格', value: formData.specification || '-' },
-            { key: '适应症', value: formData.indication || '-' },
-            { key: '用法用量', value: formData.usageAndDosage || '-' },
-            { key: 'ATC编码', value: formData.atcCode || '-' },
-            { key: '境外生产', value: renderValue(formData.isOverseasProduced) },
-            { key: '生产场地', value: formData.productionSite || '-' },
+            { label: '注册申请类型', value: renderValue(formData.registrationType, APPLICATION_TYPES) },
+            { label: '申请事项', value: renderValue(formData.applicationCategory, NMPA_APPLICATION_CATEGORIES) },
+            { label: '注册分类', value: renderValue(formData.registrationClass, NMPA_REGISTRATION_CLASSES) },
+            { label: '药品通用名称', value: formData.drugNameGeneric || '-' },
+            { label: '商品名', value: formData.drugNameTrade || '-' },
+            { label: '药品分类', value: formData.drugType || '-' },
+            { label: '剂型', value: formData.dosageForm || '-' },
+            { label: '规格', value: formData.specification || '-' },
+            { label: '适应症', value: formData.indication || '-' },
+            { label: '用法用量', value: formData.usageAndDosage || '-' },
+            { label: 'ATC编码', value: formData.atcCode || '-' },
+            { label: '境外生产', value: renderValue(formData.isOverseasProduced) },
+            { label: '生产场地', value: formData.productionSite || '-' },
           ]}
           columns={[
             { title: '项目', dataIndex: 'key', key: 'key', width: 160, render: (v: string) => <Text strong>{v}</Text> },
@@ -298,18 +298,18 @@ export default function StepReview({ formData, onSubmit, submitting }: StepRevie
         {formData.enterprise ? (
           <Table
             dataSource={[
-              { key: '营业执照号', value: formData.enterprise.businessLicenseNo || '-' },
-              { key: '生产许可证号', value: formData.enterprise.productionLicenseNo || '-' },
-              { key: 'GMP证书号', value: formData.enterprise.gmpCertificate || '-' },
-              { key: '法定代表人', value: formData.enterprise.legalRepresentative || '-' },
-              { key: '联系人', value: formData.enterprise.contactPerson || '-' },
-              { key: '联系电话', value: formData.enterprise.contactPhone || '-' },
-              { key: '手机', value: formData.enterprise.contactMobile || '-' },
-              { key: '电子邮箱', value: formData.enterprise.contactEmail || '-' },
-              { key: '生产地址', value: formData.enterprise.productionAddress || '-' },
-              { key: '通讯地址', value: formData.enterprise.mailingAddress || '-' },
-              { key: '质量负责人', value: formData.enterprise.qualityDirector || '-' },
-              { key: 'CRO数量', value: `${(formData.croList || []).length} 家` },
+              { label: '营业执照号', value: formData.enterprise.businessLicenseNo || '-' },
+              { label: '生产许可证号', value: formData.enterprise.productionLicenseNo || '-' },
+              { label: 'GMP证书号', value: formData.enterprise.gmpCertificate || '-' },
+              { label: '法定代表人', value: formData.enterprise.legalRepresentative || '-' },
+              { label: '联系人', value: formData.enterprise.contactPerson || '-' },
+              { label: '联系电话', value: formData.enterprise.contactPhone || '-' },
+              { label: '手机', value: formData.enterprise.contactMobile || '-' },
+              { label: '电子邮箱', value: formData.enterprise.contactEmail || '-' },
+              { label: '生产地址', value: formData.enterprise.productionAddress || '-' },
+              { label: '通讯地址', value: formData.enterprise.mailingAddress || '-' },
+              { label: '质量负责人', value: formData.enterprise.qualityDirector || '-' },
+              { label: 'CRO数量', value: `${(formData.croList || []).length} 家` },
             ]}
             columns={[
               { title: '项目', dataIndex: 'key', key: 'key', width: 160, render: (v: string) => <Text strong>{v}</Text> },
@@ -332,14 +332,14 @@ export default function StepReview({ formData, onSubmit, submitting }: StepRevie
       >
         <Table
           dataSource={[
-            { key: '专利数量', value: (formData.patentList || []).length > 0 ? `${(formData.patentList || []).length} 项` : '不涉及专利' },
-            { key: '不侵权声明', value: formData.nonInfringementDeclared ? '已声明' : '未声明', status: formData.nonInfringementDeclared ? 'pass' : 'fail' },
-            { key: '特殊管理药品', value: renderValue(formData.isControlledSubstance) },
-            { key: '优先审评', value: renderValue(formData.isPriorityReview) },
-            { key: '突破性治疗', value: renderValue(formData.isBreakthroughTherapy) },
-            { key: '孤儿药', value: renderValue(formData.isOrphanDrug) },
-            { key: '小微企业', value: renderValue(formData.isSmallEnterprise) },
-            { key: '费用缴纳人', value: formData.feePayer || '-' },
+            { label: '专利数量', value: (formData.patentList || []).length > 0 ? `${(formData.patentList || []).length} 项` : '不涉及专利' },
+            { label: '不侵权声明', value: formData.nonInfringementDeclared ? '已声明' : '未声明', status: formData.nonInfringementDeclared ? 'pass' : 'fail' },
+            { label: '特殊管理药品', value: renderValue(formData.isControlledSubstance) },
+            { label: '优先审评', value: renderValue(formData.isPriorityReview) },
+            { label: '突破性治疗', value: renderValue(formData.isBreakthroughTherapy) },
+            { label: '孤儿药', value: renderValue(formData.isOrphanDrug) },
+            { label: '小微企业', value: renderValue(formData.isSmallEnterprise) },
+            { label: '费用缴纳人', value: formData.feePayer || '-' },
           ]}
           columns={[
             { title: '项目', dataIndex: 'key', key: 'key', width: 160, render: (v: string) => <Text strong>{v}</Text> },
@@ -365,7 +365,7 @@ export default function StepReview({ formData, onSubmit, submitting }: StepRevie
       >
         <Table
           dataSource={[
-            { key: '已上传文件数', value: `${Object.values(formData.ctdDocuments || {}).filter(d => d.status === 'uploaded').length} 份` },
+            { label: '已上传文件数', value: `${Object.values(formData.ctdDocuments || {}).filter(d => d.status === 'uploaded').length} 份` },
           ]}
           columns={[
             { title: '项目', dataIndex: 'key', key: 'key', width: 160, render: (v: string) => <Text strong>{v}</Text> },
