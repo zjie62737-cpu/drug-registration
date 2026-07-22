@@ -1,0 +1,11 @@
+{
+  "build": {
+    "builder": "nixpacks",
+    "buildCommand": "cd server && npm install && npx prisma generate && cd ../client && npm install && npm run build"
+  },
+  "deploy": {
+    "startCommand": "cd server && npx prisma migrate deploy && npx prisma db seed || true && NODE_ENV=production PORT=$PORT npx tsx src/index.ts",
+    "healthcheckPath": "/api/health",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
